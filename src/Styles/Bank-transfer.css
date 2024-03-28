@@ -1,0 +1,80 @@
+/* bankTransfer.css */
+
+.BankTransferContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .BankTransferForm {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .BankTransferForm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .BankTransferForm div {
+    margin-bottom: 10px;
+  }
+  
+  .BankTransferForm label {
+    font-weight: bold;
+  }
+  
+  .BankTransferForm input[type="text"],
+  .BankTransferForm input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .BankTransferForm input[type="text"]:focus,
+  .BankTransferForm input[type="number"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .BankTransferForm button[type="submit"],
+  .BankTransferForm button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .BankTransferForm button[type="submit"]:hover,
+  .BankTransferForm button:hover {
+    background-color: #4CAF50;
+  }
+  
+  .ErrorMessage {
+    color: red;
+  }
+  
+  .SuccessMessage {
+    color: green;
+  }
+  
+  .ConfirmationDialog {
+    margin-top: 20px;
+  }
+  
+  .ConfirmationDialog p {
+    margin-bottom: 10px;
+  }
+  

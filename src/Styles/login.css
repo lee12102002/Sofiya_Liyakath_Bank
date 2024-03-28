@@ -1,0 +1,47 @@
+.Login {
+    width: 300px; /* Set width as desired */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-image: url('../image/bg.jpg');
+    background-size: cover;
+    position: relative; */
+
+  }
+  
+  .Login h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .Login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Login input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Login button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Login button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Login p {
+    color: red;
+    margin-top: 10px;
+  }
+ 
