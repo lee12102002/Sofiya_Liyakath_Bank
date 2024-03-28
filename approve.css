@@ -1,0 +1,31 @@
+.Approve {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .Approve h1 {
+    color: #be1212;
+    text-align: center;
+  }
+  .Approve ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .Approve li {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  .Approve li div {
+    margin-bottom: 5px;
+  }
+  .Approve li div img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .Approve li div button {
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+  }

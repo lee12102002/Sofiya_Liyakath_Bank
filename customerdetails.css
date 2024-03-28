@@ -1,0 +1,42 @@
+/* userDetails.css */
+
+.user-details-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  
+  .user-details-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-details-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Display list items in a flex container */
+    flex-direction: row; /* Items arranged from left to right */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+  }
+  
+  .user-details-list li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for each user details item */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details-list li strong {
+    font-weight: bold;
+  }
+  
+  .user-details-list li:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate background color for better readability */
+  }
+  
